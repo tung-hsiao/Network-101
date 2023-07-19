@@ -12,8 +12,16 @@
 
 ### HW:
 1. 利用wireshake觀察ARP broadcast封包
-2. 在linux環境下尋找ARP cache
-3. 預習bridge概念
+```
+sudo apt update
+sudo apt install wireshark
+sudo wireshark
+```
+3. 在linux環境下尋找ARP cache
+```
+arp -a
+```
+5. 預習bridge概念
 
 
 ## Lesson2
