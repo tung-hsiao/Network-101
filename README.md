@@ -17,11 +17,23 @@ sudo apt update
 sudo apt install wireshark
 sudo wireshark
 ```
-3. 在linux環境下尋找ARP cache
+2. 在linux環境下尋找ARP cache
 ```
 arp -a
 ```
-5. 預習bridge概念
 
+## Lesson2 Routing
+### 當網路不同的時候, 我們會...
+1. 瀏覽器沒辦法使用
+2. Ping 8.8.8.8
 
-## Lesson2
+### Gateway
+1. Routing: LAN <-> LAN or WAN <-> WAN
+2. NAT: LAN <-> WAN
+
+### Common sensse
+1.常見的Private IP: 192.168.x.x, 10.x.x.x
+2.常見的Public IP: 140.
+
+### NAT
+
